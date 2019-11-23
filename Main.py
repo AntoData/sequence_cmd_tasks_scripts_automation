@@ -132,7 +132,7 @@ def main():
 		#We load our aliases storing them in our global dictionary "aliases"
 		loadAliases()
 		#We ask the user to select which command list in folder files he want to load
-		vFile = input("Select the file in folder files with the configuration for your environment: ")
+		vFile = input("Select the file in folder \"Files\" with the sequence of commands: ")
 		#We open the file selected by the user previously
 		f = open("./files/"+vFile)
 		#We ask the user which list of dynamic parameters he wants to use
