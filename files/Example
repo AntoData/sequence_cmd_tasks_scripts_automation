@@ -1,0 +1,7 @@
+cd $HOME/dockerpath
+connect-docker-id db046ad73c68
+drush cr
+exit
+connect-docker-name site_builder_gp_apache
+drush cr
+exit

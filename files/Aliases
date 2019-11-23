@@ -1,0 +1,6 @@
+cd	FoldersUtils.changeFolder
+connect-docker-id	DockerUtils.getDockerConnectionByContainerID
+connect-docker-name	DockerUtils.getDockerConnectionByContainerName
+exit	DockerUtils.stopDockerConnection
+composer install	DockerUtils.execute_command
+drush	DockerUtils.execute_command
